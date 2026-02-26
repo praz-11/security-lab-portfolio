@@ -21,3 +21,23 @@ Alert triggered for Lumma Stealer fingerprinting activity on outbound traffic to
 - Reset user credentials
 - Scan system for malware persistence
 - Monitor network for repeat connections
+
+## Evidence Screenshots
+
+### Malicious IP Pivot
+![Malicious IP Filter](screenshots/malicious_ip_filter.png)
+
+### Host Attribution (MAC Address)
+![MAC Address](screenshots/malicious_mac.png)
+
+### Hostname Identification
+![Hostname](screenshots/malicious_hostname.png)
+
+### User Attribution
+![Username](screenshots/malicious_username.png)
+
+### Full Name Artifact
+![Full Name](screenshots/malicious_fullname.png)
+
+### Malicious Domain Resolution
+![Malicious Domain](screenshots/malicious_domain.png)
