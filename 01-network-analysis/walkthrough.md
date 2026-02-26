@@ -41,3 +41,11 @@ An alert for Lumma Stealer fingerprinting activity triggered on traffic to **153
 
 ### Conclusion
 The capture confirms a compromised Windows endpoint communicating with Lumma Stealer infrastructure. The host and user identity can now be escalated for remediation.
+
+## Baseline Evidence
+
+![Protocol Hierarchy](screenshots/baseline_protocol_hierarchy.png)
+
+![Endpoints](screenshots/baseline_endpoints.png)
+
+![DNS Queries](screenshots/baseline_dns_queries.png)
