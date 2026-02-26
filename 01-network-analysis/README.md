@@ -27,3 +27,7 @@ This project demonstrates the ability to:
 - Attribute compromised hosts to users
 - Extract indicators of compromise
 - Document findings in SOC-style reports
+
+## Note on Data
+
+PCAP files used in this project are not included in the repository due to size and privacy considerations. The analysis methodology and findings are fully documented above.
