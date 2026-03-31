@@ -5,16 +5,12 @@ This project demonstrates a basic SOC workflow using Wazuh SIEM to monitor endpo
 
 A Linux endpoint was connected to a Wazuh server, and controlled actions were performed to simulate potential attack activity. The resulting alerts were analysed to identify patterns consistent with credential access attempts and persistence techniques.
 
----
-
 ## Objectives
 - Deploy a SIEM environment using Wazuh
 - Connect an endpoint agent for log collection
 - Generate and detect security-relevant events
 - Analyse alerts using SOC-style investigation techniques
 - Map observed behaviour to MITRE ATT&CK framework
-
----
 
 ## Lab Setup
 - **SIEM Platform:** Wazuh (Manager, Indexer, Dashboard)
@@ -30,23 +26,17 @@ A Linux endpoint was connected to a Wazuh server, and controlled actions were pe
 - Configured agent to communicate with Wazuh manager  
 - Verified agent connection via dashboard  
 
----
-
 ### 2. Event Simulation
 The following actions were performed on the endpoint:
 
 - Multiple failed authentication attempts using `sudo`
 - Creation of a new user account (`attackeruser`)
 
----
-
 ### 3. Detection and Monitoring
 - Alerts observed in Wazuh Threat Hunting module  
 - Relevant events identified:
   - PAM authentication failures  
   - New user account creation  
-
----
 
 ### 4. Analysis
 - Correlated failed login attempts with subsequent account creation  
