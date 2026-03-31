@@ -38,5 +38,3 @@ Wazuh agent was installed on the endpoint system and configured to connect to th
 - Agent successfully registered in Wazuh dashboard
 - Status confirmed as "Active"
 - Logs from endpoint visible in Threat Hunting module
-
---
