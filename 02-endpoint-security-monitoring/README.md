@@ -17,8 +17,6 @@ A Linux endpoint was connected to a Wazuh server, and controlled actions were pe
 - **Endpoint:** Ubuntu Linux (Wazuh Agent installed)
 - **Environment:** VirtualBox (NAT + Host-only networking)
 
----
-
 ## Key Activities
 
 ### 1. Agent Deployment
@@ -44,14 +42,10 @@ The following actions were performed on the endpoint:
   - T1110.001 – Password Guessing  
   - T1136 – Create Account  
 
----
-
 ## Key Findings
 - Repeated authentication failures were detected for a valid user account  
 - A new user account was created shortly after failed login attempts  
 - The sequence of events is consistent with a potential brute-force attempt followed by persistence activity  
-
----
 
 ## Skills Demonstrated
 - SIEM deployment and configuration (Wazuh)
@@ -60,11 +54,7 @@ The following actions were performed on the endpoint:
 - Basic threat detection
 - MITRE ATT&CK mapping
 
----
-
 ## Files
 - `setup.md` – Lab setup and configuration steps  
 - `incident-report.md` – Detailed investigation and findings  
 - `screenshots/` – Dashboard and event evidence  
-
----
