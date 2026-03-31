@@ -5,7 +5,7 @@
 - SIEM Server: Ubuntu Linux (Wazuh Manager, Indexer, Dashboard)
 - Endpoint: Ubuntu Linux (Wazuh Agent)
 
----
+--
 
 ## Network Configuration
 Two network adapters were configured on both virtual machines:
@@ -17,7 +17,7 @@ This allowed:
 - Internet access for installation
 - Direct communication between SIEM and endpoint
 
----
+--
 
 ## Wazuh Installation (SIEM Server)
 Wazuh was installed using the official quickstart method:
@@ -31,7 +31,7 @@ Wazuh was installed using the official quickstart method:
 Accessed dashboard via:
 https://localhost
 
----
+--
 
 ## Agent Installation (Endpoint)
 Wazuh agent was installed on the endpoint system and configured to connect to the SIEM server.
@@ -40,11 +40,11 @@ Wazuh agent was installed on the endpoint system and configured to connect to th
 - Updated agent configuration file (`ossec.conf`) with correct manager IP
 - Started and enabled the agent service
 
----
+--
 
 ## Verification
 - Agent successfully registered in Wazuh dashboard
 - Status confirmed as "Active"
 - Logs from endpoint visible in Threat Hunting module
 
----
+--
