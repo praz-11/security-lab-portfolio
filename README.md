@@ -1,21 +1,29 @@
-# Security Lab Portfolio (Blue Team)
+# Security Lab Portfolio
 
-Hands-on cybersecurity projects designed to simulate Tier 1 SOC analyst work and common junior security tasks.
+Hands-on cybersecurity projects focused on endpoint monitoring, log analysis, and incident investigation.
+
+---
 
 ## Projects
-1. Network Analysis Lab (Wireshark Packet Capture)
-2. SOC Detection Lab (SIEM + alert triage)
-3. Cloud Security Hardening Walkthrough
-4. Vulnerability Scan & Remediation Report
-5. Incident Response Walkthrough (NIST 800-61)
 
-## What you’ll find in each project
-- Objective and scope
-- Environment setup (tools + configs)
-- Step-by-step walkthrough
-- Evidence (screenshots, logs, PCAPs where appropriate)
-- Findings and recommendations
-- Final report (SOC-style)
+- Network Traffic Analysis (Wireshark)
+- Endpoint Security Monitoring (Wazuh)
+- Cloud Security Hardening
+- Vulnerability Scanning and Remediation
+- Incident Response (NIST 800-61)
+
+---
+
+## What each project includes
+
+- Objective and scope  
+- Environment setup (tools and configuration)  
+- Investigation or analysis process  
+- Supporting evidence (screenshots, logs, PCAPs where relevant)  
+- Key findings and recommendations  
+
+---
 
 ## Status
-Active build — Feb 2026
+
+Active build – 2026
