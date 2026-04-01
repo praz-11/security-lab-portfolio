@@ -1,16 +1,16 @@
 # Endpoint Security Monitoring and Incident Detection (Wazuh)
 
 ## Overview
-This project demonstrates a basic SOC workflow using Wazuh SIEM to monitor endpoint activity, detect suspicious behaviour, and investigate security events. 
+This project uses Wazuh to monitor endpoint activity, detect suspicious behaviour, and investigate security events.
 
-A Linux endpoint was connected to a Wazuh server, and controlled actions were performed to simulate potential attack activity. The resulting alerts were analysed to identify patterns consistent with credential access attempts and persistence techniques.
+A Linux endpoint was connected to a Wazuh server, where authentication failures and account creation events were generated and analysed. The resulting alerts were reviewed to understand how individual events relate to potential credential access and persistence activity.
 
 ## Objectives
 - Deploy a SIEM environment using Wazuh
 - Connect an endpoint agent for log collection
 - Generate and detect security-relevant events
-- Analyse alerts using SOC-style investigation techniques
-- Map observed behaviour to MITRE ATT&CK framework
+- Analyse alerts and identify patterns across events
+- Map observed behaviour to the MITRE ATT&CK framework
 
 ## Lab Setup
 - **SIEM Platform:** Wazuh (Manager, Indexer, Dashboard)
@@ -31,7 +31,7 @@ The following actions were performed on the endpoint:
 - Creation of a new user account (`attackeruser`)
 
 ### 3. Detection and Monitoring
-- Alerts observed in Wazuh Threat Hunting module  
+- Alerts observed in the Wazuh Threat Hunting module  
 - Relevant events identified:
   - PAM authentication failures  
   - New user account creation  
@@ -51,16 +51,16 @@ The following actions were performed on the endpoint:
 - SIEM deployment and configuration (Wazuh)
 - Log analysis and alert triage
 - Event correlation
-- Basic threat detection
+- Threat detection
 - MITRE ATT&CK mapping
 
 ## Additional Observations
-During analysis, authentication failures were observed prior to account creation. While this lab scenario was controlled, similar patterns in a production environment could indicate brute-force activity followed by persistence.
+Authentication failures were observed prior to account creation. While this was a controlled scenario, similar patterns in a production environment could indicate brute-force activity followed by persistence.
 
 To improve detection capability:
-- Correlation rules could be implemented to flag sequences of failed logins followed by account creation
-- Threshold-based alerts could be configured for repeated authentication failures
-- Additional monitoring could be added for privilege escalation events
+- Implement correlation rules to flag sequences of failed logins followed by account creation  
+- Configure thresholds for repeated authentication failures  
+- Extend monitoring to include privilege escalation activity  
 
 ## Files
 - `setup.md` – Lab setup and configuration steps  
