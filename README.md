@@ -2,8 +2,6 @@
 
 Hands-on cybersecurity projects focused on endpoint monitoring, log analysis, and incident investigation.
 
----
-
 ## Projects
 
 - Network Traffic Analysis (Wireshark)
@@ -12,8 +10,6 @@ Hands-on cybersecurity projects focused on endpoint monitoring, log analysis, an
 - Vulnerability Scanning and Remediation
 - Incident Response (NIST 800-61)
 
----
-
 ## What each project includes
 
 - Objective and scope  
@@ -21,8 +17,6 @@ Hands-on cybersecurity projects focused on endpoint monitoring, log analysis, an
 - Investigation or analysis process  
 - Supporting evidence (screenshots, logs, PCAPs where relevant)  
 - Key findings and recommendations  
-
----
 
 ## Status
 
