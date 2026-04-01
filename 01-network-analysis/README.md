@@ -1,33 +1,37 @@
-# Network Analysis Lab (Wireshark Packet Capture)
+# Network Traffic Analysis (Wireshark)
 
-Part of a personal blue-team portfolio focused on SOC analyst skill development.
+## Overview
+This project focuses on capturing and analysing network traffic using Wireshark to understand normal behaviour and identify suspicious activity.
 
-## Objective
-Capture and analyse network traffic to identify normal baselines and suspicious behaviour.
+Two datasets were analysed:
+- A baseline capture to understand typical traffic patterns
+- A malicious capture to investigate potential compromise
+
+## Objectives
+- Capture and analyse network traffic
+- Identify normal baseline behaviour
+- Investigate suspicious activity in packet data
+- Extract relevant indicators of compromise (IOCs)
+- Document findings clearly
 
 ## Deliverables
-- Setup guide
-- Wireshark filters used
-- PCAP evidence (sanitised)
-- IOC summary
-- Final report
+- Setup guide  
+- Wireshark filters used  
+- IOC summary  
+- Analysis report  
 
 ## Files
-- walkthrough.md
-- filters.md
-- ioc-summary.md
-- report.md
+- `walkthrough.md`
+- `filters.md`
+- `ioc-summary.md`
+- `report.md`
 
-## Outcome
-
-This project demonstrates the ability to:
-
-- Analyse baseline network behaviour
-- Investigate suspicious traffic
-- Attribute compromised hosts to users
-- Extract indicators of compromise
-- Document findings in SOC-style reports
+## Key Outcomes
+- Analysed baseline network behaviour across common protocols  
+- Investigated suspicious traffic linked to a known malicious IP  
+- Identified the affected internal host and associated user  
+- Extracted indicators such as IP addresses and domain names  
+- Documented findings based on packet-level analysis  
 
 ## Note on Data
-
-PCAP files used in this project are not included in the repository due to size and privacy considerations. The analysis methodology and findings are fully documented above.
+PCAP files are not included due to size and privacy considerations. The analysis process and findings are documented in the files above.
