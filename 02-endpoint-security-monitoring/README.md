@@ -54,6 +54,14 @@ The following actions were performed on the endpoint:
 - Basic threat detection
 - MITRE ATT&CK mapping
 
+## Additional Observations
+During analysis, authentication failures were observed prior to account creation. While this lab scenario was controlled, similar patterns in a production environment could indicate brute-force activity followed by persistence.
+
+To improve detection capability:
+- Correlation rules could be implemented to flag sequences of failed logins followed by account creation
+- Threshold-based alerts could be configured for repeated authentication failures
+- Additional monitoring could be added for privilege escalation events
+
 ## Files
 - `setup.md` – Lab setup and configuration steps  
 - `incident-report.md` – Detailed investigation and findings  
