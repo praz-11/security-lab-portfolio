@@ -72,9 +72,10 @@ To improve detection capability:
 ### Agent Connection
 ![Agent Connected](screenshots/agent-connected.png)
 
-
 ### Authentication Failure
-![Auth Failure](screenshots/authentication-failure1.png) (screenshots/authentication-failure2.png)
+![Auth Failure](screenshots/authentication-failure1.png) 
+![](screenshots/authentication-failure2.png)
 
 ### User Creation Event
-![User Creation](screenshots/user-creation-event.png)
+![User Creation](screenshots/user-creation-event1.png)
+![](screenshots/user-creation-event2.png)
