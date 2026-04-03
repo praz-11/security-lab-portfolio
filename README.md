@@ -6,9 +6,6 @@ Hands-on cybersecurity projects focused on endpoint monitoring, log analysis, an
 
 - Network Traffic Analysis (Wireshark)
 - Endpoint Security Monitoring (Wazuh)
-- Cloud Security Hardening
-- Vulnerability Scanning and Remediation
-- Incident Response (NIST 800-61)
 
 ## What each project includes
 
