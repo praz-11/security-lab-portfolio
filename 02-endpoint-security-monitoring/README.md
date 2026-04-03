@@ -65,4 +65,16 @@ To improve detection capability:
 ## Files
 - `setup.md` – Lab setup and configuration steps  
 - `incident-report.md` – Detailed investigation and findings  
-- `screenshots/` – Dashboard and event evidence  
+- `screenshots/` – Dashboard and event evidence
+
+## Screenshots
+
+### Agent Connection
+![Agent Connected](screenshots/agent-connected.png)
+
+
+### Authentication Failure
+![Auth Failure](screenshots/authentication-failure1.png) (screenshots/authentication-failure2.png)
+
+### User Creation Event
+![User Creation](screenshots/user-creation-event.png)
